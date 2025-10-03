@@ -118,7 +118,6 @@ class Homepage extends StatelessWidget {
                             margin: EdgeInsets.only(right: 10.w),
                             padding: const EdgeInsets.symmetric(
                                 horizontal: 20, vertical: 10),
-                           
                             decoration: BoxDecoration(
                               color: isSelected
                                   ? Theme.of(context).colorScheme.primary
@@ -249,7 +248,6 @@ class Homepage extends StatelessWidget {
           onPressed: () async {
             noteController.selectedCategory.value = "";
             await Get.to(() => const AddNote());
-            // Reset to "All" after returning from AddNote screen
             noteController.selectedCategory.value = "All";
           },
           child: Icon(

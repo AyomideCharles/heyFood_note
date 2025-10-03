@@ -11,6 +11,7 @@ A note app that allows users to create, edit, view and delete notes.
 # Features
 - Add note
 - Delete note
+- Long press on each note to delete
 - Edit note
 - Search note
 - Filter note by categories
