@@ -34,20 +34,6 @@ class _AddNoteState extends State<AddNote> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.notesEdit == null ? 'Add Note' : 'Edit Note'),
-        actions: [
-          IconButton(
-            icon: const Icon(Iconsax.save_add),
-            onPressed: () {},
-          ),
-          IconButton(
-            icon: const Icon(Icons.push_pin_outlined),
-            onPressed: () {},
-          ),
-          IconButton(
-            icon: const Icon(Iconsax.export),
-            onPressed: () {},
-          ),
-        ],
       ),
       body: Padding(
         padding: EdgeInsets.fromLTRB(20.w, 40.h, 20.w, 20.h),

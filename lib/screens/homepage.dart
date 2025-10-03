@@ -116,8 +116,9 @@ class Homepage extends StatelessWidget {
                           },
                           child: Container(
                             margin: EdgeInsets.only(right: 10.w),
-                            width: 80.w,
-                            height: 40.h,
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 20, vertical: 10),
+                           
                             decoration: BoxDecoration(
                               color: isSelected
                                   ? Theme.of(context).colorScheme.primary
@@ -209,11 +210,15 @@ class Homepage extends StatelessWidget {
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text(
-                                  note.category,
-                                  style: TextStyle(
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 14.sp),
+                                Row(
+                                  children: [
+                                    Text(
+                                      note.category,
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 14.sp),
+                                    ),
+                                  ],
                                 ),
                                 SizedBox(height: 8.h),
                                 Expanded(

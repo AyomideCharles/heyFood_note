@@ -3,8 +3,8 @@
 A note app that allows users to create, edit, view and delete notes.
 
 # Set up instructions
-- git clone https://github.com/AyomideCharles/kobipay_test.git
-- cd transactions-app
+- git clone https://github.com/AyomideCharles/heyFood_note
+- cd heyFood_note
 - flutter pub get (to install dependencies)
 - flutter run
 
@@ -28,11 +28,11 @@ A note app that allows users to create, edit, view and delete notes.
 
 # Architecture
 lib/ 
-├── core/
-├── models/
-├── controller/
-├── services/
-├── widgets/
-└── screens/
+- core
+- models
+- controller
+- services
+- widgets
+- screens
 
 
