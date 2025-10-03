@@ -97,24 +97,6 @@ class Homepage extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 30.h),
-              SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                physics: const BouncingScrollPhysics(),
-                child: Row(
-                  children: List.generate(10, (index) {
-                    return Container(
-                      margin: EdgeInsets.only(right: 10.w),
-                      width: 60.w,
-                      height: 60.h,
-                      decoration: BoxDecoration(
-                        border: Border.all(color: Colors.grey.shade300),
-                        borderRadius: BorderRadius.circular(10.r),
-                      ),
-                    );
-                  }),
-                ),
-              ),
-              SizedBox(height: 30.h),
               Obx(
                 () => SingleChildScrollView(
                   scrollDirection: Axis.horizontal,

@@ -1,16 +1,38 @@
-# heyfood_note_test
+# heyfood_note_app
 
-A new Flutter project.
+A note app that allows users to create, edit, view and delete notes.
 
-## Getting Started
+# Set up instructions
+- git clone https://github.com/AyomideCharles/kobipay_test.git
+- cd transactions-app
+- flutter pub get (to install dependencies)
+- flutter run
 
-This project is a starting point for a Flutter application.
+# Features
+- Add note
+- Delete note
+- Edit note
+- Search note
+- Filter note by categories
+- Add new categories
+- Filter notes by date added
+- Filter notes by alphabetical orders
+- Dark mode and light mode
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Libaries used
+- GetX - State management
+- Flutter screenutil
+- get storage
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+# Architecture
+lib/ 
+├── core/
+├── models/
+├── controller/
+├── services/
+├── widgets/
+└── screens/
+
+

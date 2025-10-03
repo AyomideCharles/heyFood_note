@@ -28,11 +28,6 @@ class MyApp extends StatelessWidget {
                 : ThemeMode.light,
             theme: AppThemes.light,
             title: 'Flutter Demo',
-            // theme: ThemeData(
-            //   fontFamily: 'AvenirLTStd-Light',
-            //   colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-            //   useMaterial3: true,
-            // ),
             home: const Homepage()));
       },
     );
